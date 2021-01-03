@@ -98,7 +98,97 @@ img{
   padding:60px 0px;
   display: flex;
   flex-wrap: wrap;
+
 }
 .img-post1{
-  width: 400px;
+  flex: 1 1 160px
 }
+.legenda-post1{
+ 
+  text-align: center;
+  margin:0.5em;
+  padding: 10px;
+}
+.legenda-post1  h2{
+  font-size: 3em;
+  margin:0.5em;
+  color: #D6000D;
+}
+.legenda-post1 h3{
+  font-size: 2em;
+}
+
+.legenda-post1 a{
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+border:0px solid lightgray;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  background: #d6000d;
+  color: white;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+/* VANTAGENS */
+
+.vantagens-container{
+  max-width: 960px;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vantagens-div{
+ font-size: 1.5em;
+ text-align: left;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ margin: 0;
+ padding: 60px;
+}
+.vantagens-div ul li{
+  margin:10px
+}
+
+.img-vantagens{
+  flex: 1 1 160px;
+}
+
+/* CONTATO */
+
+.contato-div{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.text-contato{
+  font-size: 1.25em;
+  padding: 10px;
+}
+.form-div input{
+  padding: 15px 30px;
+  margin:10px;
+  border-radius: 10px;
+  border:0px none;
+font-size: 1em;
+text-align: center;
+background: #d3d3d3;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+font-weight: 400;
+}
+.form-div button{
+  padding: 15px 30px;
+  border-radius: 10px;
+  border:0px none;
+  font-size: 1em;
+  text-align: center;
+  background: #d6000d;
+  color:white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+/* RELATOS */
