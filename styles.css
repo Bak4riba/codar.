@@ -6,7 +6,7 @@ body{
 }
 /*HEADER INICIO*/
 .div-container-header{
-  width: 100%;
+  max-width: 960px;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -24,7 +24,6 @@ body{
 
 
 .div-menu{
-  width: 90vw;
   align-self: inherit;
   line-height: 12vh;
   padding-left: 50vw;
@@ -40,7 +39,18 @@ body{
   padding: 1.5vh 5vw;
   color:white;
   box-shadow: 0 8px 6px -6px black;
+}
+@media screen and (max-width: 300px) {
+  #login-button {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
 }
 .shadow{
   box-shadow: 0 8px 6px -6px black;
