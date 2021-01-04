@@ -188,6 +188,7 @@ border:0px solid lightgray;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 400;
   align-self: center;
+  box-shadow: 0 8px 6px -6px black;
 }
 .form-div button{
   padding: 15px 48px;
@@ -199,24 +200,25 @@ border:0px solid lightgray;
   color:white;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 600;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 
 /* RELATOS */
 .relatos-div{
   max-width: 960px;
-  margin:20px auto; 
-  background: tomato;
+  margin:40px auto;
   display: flex;
   flex-flow: row wrap;
 }
 .card{
   width: 360px;
-  margin:0px auto ; 
+  margin:5px auto ; 
   background: #d3d3d3; 
   border-radius: 10px;
   padding: 20px;
   display: flex;
+  box-shadow: 0 8px 6px -6px black;
   
 }
 .img-user{
@@ -225,12 +227,11 @@ border:0px solid lightgray;
   
 }
 .relatos-text{
-  background: chocolate;
   text-align: justify;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
-.relatos-text p{
-  font-size: 1em;
+.relato{
+  font-size: 0.8em;
 }
 .autor-relato{
   font-weight: 800;
@@ -239,3 +240,5 @@ border:0px solid lightgray;
 .cargo-autor{
   font-weight: 500;
 }
+
+/* FOOTER */
