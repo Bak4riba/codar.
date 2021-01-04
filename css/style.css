@@ -150,11 +150,16 @@ border:0px solid lightgray;
  padding: 60px;
 }
 .vantagens-div ul li{
-  margin:10px
+  margin:30px
 }
 
 .img-vantagens{
   flex: 1 1 160px;
+}
+@media(max-width:550px){
+  .img-vantagens {
+    order:-2;
+  }
 }
 
 /* CONTATO */
@@ -162,25 +167,30 @@ border:0px solid lightgray;
 .contato-div{
   max-width: 960px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left:55px ;
 }
 
 .text-contato{
   font-size: 1.25em;
   padding: 10px;
 }
+
 .form-div input{
-  padding: 15px 30px;
-  margin:10px;
+  padding: 15px 15px;
   border-radius: 10px;
   border:0px none;
-font-size: 1em;
-text-align: center;
-background: #d3d3d3;
-font-family: "Roboto", Arial, Helvetica, sans-serif;
-font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  background: #d3d3d3;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  align-self: center;
 }
 .form-div button{
-  padding: 15px 30px;
+  padding: 15px 48px;
   border-radius: 10px;
   border:0px none;
   font-size: 1em;
@@ -191,4 +201,41 @@ font-weight: 400;
   font-weight: 600;
 }
 
+
 /* RELATOS */
+.relatos-div{
+  max-width: 960px;
+  margin:20px auto; 
+  background: tomato;
+  display: flex;
+  flex-flow: row wrap;
+}
+.card{
+  width: 360px;
+  margin:0px auto ; 
+  background: #d3d3d3; 
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  
+}
+.img-user{
+  flex:1 1 360px;
+  align-self: center;
+  
+}
+.relatos-text{
+  background: chocolate;
+  text-align: justify;
+  font-size: 1em;
+}
+.relatos-text p{
+  font-size: 1em;
+}
+.autor-relato{
+  font-weight: 800;
+  margin:10px 0px
+}
+.cargo-autor{
+  font-weight: 500;
+}
