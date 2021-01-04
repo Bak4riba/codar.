@@ -243,3 +243,35 @@ border:0px solid lightgray;
 
 /* FOOTER */
 
+.footer-div{
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+  align-items:baseline;
+}
+.logo-footer, .sobre-footer, .contato-footer, .redes-sociais{
+  margin:10px auto;
+  text-align: justify;
+  padding: 0px;
+  color:white;
+  max-width: 300px;
+}
+.logo-footer h1{
+  font-size: 2em;
+  font-style: italic;
+}
+.logo-footer h1, .sobre-footer h2, .contato-footer h2, .redes-sociais h2{
+  padding-bottom: 20px;
+}
+.contato-footer p{
+  line-height: 2;
+}
+
+.redes-sociais i{
+  color: #D6000D;
+  font-size: 2em;
+  padding: 3px;
+}
